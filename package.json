@@ -1,0 +1,19 @@
+{
+  "name": "travel-time",
+  "version": "0.0.1",
+  "description": "travel website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kate-Kitkat19/travel-time.git"
+  },
+  "author": "Kate",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kate-Kitkat19/travel-time/issues"
+  },
+  "homepage": "https://github.com/Kate-Kitkat19/travel-time#readme"
+}
