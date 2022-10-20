@@ -1,0 +1,55 @@
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url(/img/travel-time-2x.png);
+  background-size: 1440px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 70px;
+  padding-bottom: 130px;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 128px;
+  margin-bottom: 100px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 144px;
+}
+
+.sub-title {
+  font-family: 'Poppins';
+  font-weight: 275;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 220px;
+}
+
+.main-btn {
+  width: 190px;
+  height: 60px;
+  background-color: rgb(0, 180, 64);
+  border: 2px solid white;
+  border-radius: 8px;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.16;
+  color: currentColor;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 2px 0px rgb(151, 216, 249);
+  }
+}
